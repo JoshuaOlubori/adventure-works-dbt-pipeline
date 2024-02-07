@@ -1,0 +1,15 @@
+version: 2
+sources:
+  - name: awdb
+    database: adventure-works-bq
+    schema: awdb_raw
+    tables:
+      - name: budget
+      - name: budgetperiod
+      - name: customer
+      - name: dimdate
+      - name: dimproductcategory
+      - name: dimproductsubcategory
+      - name: product
+      - name: sales
+      - name: territory
